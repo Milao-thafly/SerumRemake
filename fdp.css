@@ -11,7 +11,41 @@
     url(font/Barlow/Barlow-Bold.ttf);
  }
 
+@media screen and (max-width: 1200px){
+#whatisserum{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 
+}
+
+#serumpresentationimage{
+    
+    width: 20em !important;
+    height: 275px; 
+    
+}
+
+.tuto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 15em !important;
+    padding-bottom: 9vh;
+    padding-top: 2vh;
+    gap: 2vh;
+    color: white;
+    font-size: x-large;
+    font-family: 'Barlow';
+    background: linear-gradient(20deg, rgba(58, 57, 57, 0.664) 0%, rgba(32, 32, 32, 0.7) 100%);
+    border-radius: 3px;
+    border: 1px solid
+    rgba(222, 222, 222, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+}
 
 body{
 }
@@ -115,14 +149,14 @@ body{
 #whatisserum{
     
     display: flex;
-    flex-direction: row;        
+    flex-direction: row;
     gap: 20px;
 
 }
 
 #serumpresentationimage{
-    padding: 0 auto;
-    width: 20em;
+    
+    width: 25em;
     height: 275px; 
     margin-right: 1rem;
 }
@@ -160,7 +194,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 20em;
+    min-width: 10em;
     max-width: 20em;
     padding-bottom: 9vh;
     padding-top: 2vh;
@@ -197,8 +231,8 @@ body{
     display: flex;
     justify-content: center;
     list-style: none;
-    font-size: 1rem;
-    background: linear-gradient(30deg, rgba(32, 32, 32, 0.884) 5%, rgba(0, 0, 0, 0.95) 100%) ;
+    font-size: 1em;
+    background: linear-gradient(30deg, rgba(32, 32, 32, 0.884) 0%, rgba(0, 0, 0, 0.863) 70%) ;
     
 
 }
@@ -206,7 +240,7 @@ body{
 
 
 #theUL{
-    width: 70%;
+    width: 95%;
     list-style: none;
     display: flex;
     align-items: center;
